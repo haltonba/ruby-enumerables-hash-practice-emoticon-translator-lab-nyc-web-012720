@@ -6,8 +6,8 @@ def load_library (file_path)
     get_meaning: {},
     get_emoticon: {}
   }
-  library.each do ||
-    
+  library.each do |meaning, emoticon|
+    result[:get_meaning]
   end
   result
 end
