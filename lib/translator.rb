@@ -1,7 +1,11 @@
 require 'yaml'
 
-def load_library (get_meaning)
+def load_library (meaning)
   emoticons = YAML.load_file('lib/emoticons.yml')
+  hash = {
+    get_meaning: {},
+    get_emoticon: {}
+  }
   emoticons
 end
 
